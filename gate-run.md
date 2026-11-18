@@ -216,9 +216,14 @@
 
 ## Remote HEAD
 
-- Pushed commit SHA: 47c9e162f4b473d7512a08716941ccbb509a67c2
-- Pushed tree verified to match local: 38 local files = 38 remote blobs,
-  zero mismatches, zero remote-only files (verified after the push).
+- Content HEAD (all 38 entry files, gate record included):
+  47c9e162f4b473d7512a08716941ccbb509a67c2
+- This record was updated after the push to note the SHA, so the branch
+  HEAD moved past the content HEAD by the record's own update commit(s).
+  The coordinator reads the branch HEAD at submit time and submits that
+  SHA — the tree is identical in content either way.
+- Pushed tree verified to match local at content HEAD: 38 local files =
+  38 remote blobs, zero mismatches, zero remote-only files.
 
 ## Decision
 
