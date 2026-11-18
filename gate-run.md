@@ -216,8 +216,9 @@
 
 ## Remote HEAD
 
-- Pushed commit SHA: (filled by the push step below)
-- Pushed tree verified to match local (push script verifies).
+- Pushed commit SHA: 47c9e162f4b473d7512a08716941ccbb509a67c2
+- Pushed tree verified to match local: 38 local files = 38 remote blobs,
+  zero mismatches, zero remote-only files (verified after the push).
 
 ## Decision
 
